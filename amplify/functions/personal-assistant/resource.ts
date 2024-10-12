@@ -1,7 +1,7 @@
 import { defineFunction } from "@aws-amplify/backend";
 
 // export const MODEL_ID = "anthropic.claude-3-haiku-20240307-v1:0";
-export const MODEL_ID = "ai21.jamba-instruct-v1:0";
+export const MODEL_ID = "us.anthropic.claude-3-haiku-20240307-v1:0";
 
 export const personalAssistantFunction = defineFunction({
   entry: "./handler.ts",
